@@ -18,12 +18,14 @@ export default function Home() {
 
   const [filters, setFilters] = useState({ type: "", category: "" });
   const [searchQuery, setSearchQuery] = useState("");
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
+
 
   useEffect(() => {
     const fetchDocuments = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch("http://localhost:4000/documents");
+        const response = await fetch(`${apiUrl}/documents`);
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
