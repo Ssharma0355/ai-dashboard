@@ -7,7 +7,7 @@ interface Props {
   onClose: () => void;
 }
 
-export const CreateDocumentModal = ({ onClose }: Props) => {
+export const CreateDocumentModal = ({ onClose }: Props) =>{
   const [title, setTitle] = useState("");
   const [type, setType] = useState("document");
   const [category, setCategory] = useState("business");
