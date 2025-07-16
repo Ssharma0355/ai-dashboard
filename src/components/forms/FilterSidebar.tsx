@@ -38,7 +38,7 @@ export const FilterSidebar = ({ onFilterChange }: Props) => {
       </select>
       <button
         onClick={handleFilter}
-        className="w-full p-2 bg-blue-500 text-white rounded"
+        className="w-full p-2 bg-blue-500 text-white rounded cursor-pointer"
       >
         Apply Filters
       </button>
