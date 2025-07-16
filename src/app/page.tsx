@@ -104,7 +104,7 @@ export default function Home() {
         isOpen={isModalOpen}
         onClose={closeModal}
         document={selectedDoc}
-        onDownload={handleDownload}
+        // onDownload={handleDownload}
       />
     </div>
   );
