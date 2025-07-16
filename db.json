@@ -11,14 +11,6 @@
       "tags": ["marketing", "strategy", "Q1"]
     },
     {
-      "id": "8431",
-      "title": "Daily Standup Notes",
-      "type": "slide",
-      "category": "personal",
-      "prompt": "Summarize daily team standup notes.",
-      "aiGenerated": false
-    },
-    {
       "id": "2",
       "title": "Sales Performance Report 2024",
       "type": "document",
