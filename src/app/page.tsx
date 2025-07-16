@@ -16,6 +16,9 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const [filters, setFilters] = useState({ type: "", category: "" });
+  const [searchQuery, setSearchQuery] = useState("");
+
   useEffect(() => {
     const fetchDocuments = async () => {
       try {
@@ -41,17 +44,31 @@ export default function Home() {
     fetchDocuments();
   }, []);
 
-  const handleFilterChange = (filters: { type: string; category: string }) => {
-    const { type, category } = filters;
-
+  useEffect(() => {
     const filtered = documents.filter((doc) => {
-      return (
-        (type ? doc.type === type : true) &&
-        (category ? doc.category === category : true)
-      );
+      const matchesType = filters.type ? doc.type === filters.type : true;
+      const matchesCategory = filters.category
+        ? doc.category === filters.category
+        : true;
+      const matchesSearch = searchQuery
+        ? doc.title.toLowerCase().includes(searchQuery.toLowerCase())
+        : true;
+
+      return matchesType && matchesCategory && matchesSearch;
     });
 
     setFilteredDocs(filtered);
+  }, [documents, filters, searchQuery]);
+
+  const handleFilterChange = (newFilters: {
+    type: string;
+    category: string;
+  }) => {
+    setFilters(newFilters);
+  };
+
+  const handleSearchChange = (query: string) => {
+    setSearchQuery(query);
   };
 
   const handleDocumentClick = (doc: Document) => {
@@ -64,20 +81,11 @@ export default function Home() {
     setSelectedDoc(null);
   };
 
-  const handleDownload = () => {
-    if (selectedDoc) {
-      // Simulate download
-      toast.success(`Downloading ${selectedDoc.title}`);
-      // In a real app, you would implement actual download logic here
-    }
-  };
-
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-      <Header />
+      <Header onSearchChange={handleSearchChange} />
       <div className="flex flex-1 flex-col md:flex-row overflow-hidden">
         <FilterSidebar onFilterChange={handleFilterChange} />
-
         <main className="flex-1 p-4 overflow-auto">
           {isLoading ? (
             <div className="flex items-center justify-center h-full">
@@ -104,7 +112,6 @@ export default function Home() {
         isOpen={isModalOpen}
         onClose={closeModal}
         document={selectedDoc}
-        // onDownload={handleDownload}
       />
     </div>
   );
