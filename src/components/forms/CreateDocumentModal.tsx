@@ -26,11 +26,12 @@ export const CreateDocumentModal = ({ onClose }: Props) => {
       tags: [], // Optional: add tag input if needed
     };
 
-    await fetch("http://localhost:4000/documents", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(newDocument),
-    });
+   await fetch("/api/documents", {
+     method: "POST",
+     headers: { "Content-Type": "application/json" },
+     body: JSON.stringify(newDocument),
+   });
+
 
     onClose();
   };
