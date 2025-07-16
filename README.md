@@ -1,5 +1,3 @@
-Got it!
-Here’s a **clean README** without **light and dark mode** mention:
 
 ---
 
