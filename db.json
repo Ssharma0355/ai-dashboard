@@ -5,21 +5,280 @@
       "title": "Marketing Strategy Q1 2025",
       "type": "document",
       "category": "business",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "createdAt": "2025-01-15T10:30:00Z",
       "aiGenerated": true,
-      "tags": [
-        "marketing",
-        "strategy",
-        "Q1"
-      ]
+      "tags": ["marketing", "strategy", "Q1"]
     },
     {
       "id": "8431",
-      "title": "ds",
+      "title": "Daily Standup Notes",
       "type": "slide",
       "category": "personal",
-      "prompt": "dsd"
+      "prompt": "Summarize daily team standup notes.",
+      "aiGenerated": false
+    },
+    {
+      "id": "2",
+      "title": "Sales Performance Report 2024",
+      "type": "document",
+      "category": "finance",
+      "content": "Sales data analysis for 2024 with regional breakdown.",
+      "createdAt": "2025-01-10T09:00:00Z",
+      "aiGenerated": true,
+      "tags": ["sales", "report", "finance"]
+    },
+    {
+      "id": "3",
+      "title": "UI Design Guidelines",
+      "type": "document",
+      "category": "design",
+      "content": "Best practices for UI components and layouts.",
+      "createdAt": "2025-02-05T11:45:00Z",
+      "aiGenerated": true,
+      "tags": ["UI", "design", "guidelines"]
+    },
+    {
+      "id": "4",
+      "title": "Meeting Summary: Client A",
+      "type": "note",
+      "category": "business",
+      "content": "Summary of the meeting with Client A regarding project deliverables.",
+      "createdAt": "2025-02-07T15:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "5",
+      "title": "AI Roadmap 2025",
+      "type": "slide",
+      "category": "technology",
+      "prompt": "Create an AI development roadmap presentation for 2025.",
+      "aiGenerated": true
+    },
+    {
+      "id": "6",
+      "title": "Employee Handbook",
+      "type": "document",
+      "category": "HR",
+      "content": "Company policies and code of conduct.",
+      "createdAt": "2025-03-01T10:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "7",
+      "title": "Security Guidelines 2025",
+      "type": "document",
+      "category": "IT",
+      "content": "Updated security guidelines for the organization.",
+      "createdAt": "2025-03-05T14:30:00Z",
+      "aiGenerated": true,
+      "tags": ["security", "IT", "guidelines"]
+    },
+    {
+      "id": "8",
+      "title": "Product Launch Plan",
+      "type": "slide",
+      "category": "business",
+      "prompt": "Generate a presentation for the product launch strategy.",
+      "aiGenerated": true
+    },
+    {
+      "id": "9",
+      "title": "Quarterly Budget",
+      "type": "document",
+      "category": "finance",
+      "content": "Q2 2025 budget allocation report.",
+      "createdAt": "2025-04-10T09:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "10",
+      "title": "Social Media Calendar",
+      "type": "note",
+      "category": "marketing",
+      "content": "Weekly social media posting schedule.",
+      "createdAt": "2025-04-12T08:00:00Z",
+      "aiGenerated": true,
+      "tags": ["social media", "calendar", "marketing"]
+    },
+    {
+      "id": "11",
+      "title": "SEO Strategy 2025",
+      "type": "document",
+      "category": "marketing",
+      "content": "Search engine optimization plans for 2025.",
+      "createdAt": "2025-04-15T12:00:00Z",
+      "aiGenerated": true,
+      "tags": ["SEO", "strategy"]
+    },
+    {
+      "id": "12",
+      "title": "Team Offsite Agenda",
+      "type": "note",
+      "category": "HR",
+      "content": "Agenda for upcoming team offsite.",
+      "createdAt": "2025-04-20T11:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "13",
+      "title": "Competitive Analysis Report",
+      "type": "document",
+      "category": "business",
+      "content": "Comparative analysis of top competitors.",
+      "createdAt": "2025-05-01T13:30:00Z",
+      "aiGenerated": true,
+      "tags": ["competitor", "analysis", "business"]
+    },
+    {
+      "id": "14",
+      "title": "Investor Pitch Deck",
+      "type": "slide",
+      "category": "finance",
+      "prompt": "Generate an investor pitch deck.",
+      "aiGenerated": true
+    },
+    {
+      "id": "15",
+      "title": "Product Requirements Document",
+      "type": "document",
+      "category": "product",
+      "content": "Feature list and technical requirements for new product.",
+      "createdAt": "2025-05-10T16:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "16",
+      "title": "Weekly Status Report",
+      "type": "note",
+      "category": "operations",
+      "content": "Weekly update on project statuses.",
+      "createdAt": "2025-05-14T17:00:00Z",
+      "aiGenerated": true
+    },
+    {
+      "id": "17",
+      "title": "Customer Feedback Summary",
+      "type": "document",
+      "category": "support",
+      "content": "Summary of customer feedback received in Q2.",
+      "createdAt": "2025-06-01T10:00:00Z",
+      "aiGenerated": true,
+      "tags": ["customer", "feedback"]
+    },
+    {
+      "id": "18",
+      "title": "Mobile App Design Slides",
+      "type": "slide",
+      "category": "design",
+      "prompt": "Create slides for mobile app UI/UX design.",
+      "aiGenerated": true
+    },
+    {
+      "id": "19",
+      "title": "Incident Report 0425",
+      "type": "document",
+      "category": "IT",
+      "content": "Details of the April 2025 system outage incident.",
+      "createdAt": "2025-06-05T09:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "20",
+      "title": "Employee Onboarding Checklist",
+      "type": "document",
+      "category": "HR",
+      "content": "Steps and requirements for onboarding new employees.",
+      "createdAt": "2025-06-10T11:30:00Z",
+      "aiGenerated": true
+    },
+    {
+      "id": "21",
+      "title": "Workshop Presentation: AI Ethics",
+      "type": "slide",
+      "category": "technology",
+      "prompt": "Prepare slides on AI Ethics for workshop.",
+      "aiGenerated": true
+    },
+    {
+      "id": "22",
+      "title": "Performance Review Template",
+      "type": "document",
+      "category": "HR",
+      "content": "Template for employee performance reviews.",
+      "createdAt": "2025-06-15T13:00:00Z",
+      "aiGenerated": true
+    },
+    {
+      "id": "23",
+      "title": "Annual Goals 2025",
+      "type": "note",
+      "category": "personal",
+      "content": "List of personal and professional goals for 2025.",
+      "createdAt": "2025-06-20T14:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "24",
+      "title": "Security Breach Plan",
+      "type": "document",
+      "category": "IT",
+      "content": "Action plan in case of a security breach.",
+      "createdAt": "2025-06-25T09:00:00Z",
+      "aiGenerated": true,
+      "tags": ["security", "plan"]
+    },
+    {
+      "id": "25",
+      "title": "Company Overview Slides",
+      "type": "slide",
+      "category": "business",
+      "prompt": "Generate company overview slides for new hires.",
+      "aiGenerated": true
+    },
+    {
+      "id": "26",
+      "title": "Technical Architecture Diagram",
+      "type": "slide",
+      "category": "technology",
+      "prompt": "Create architecture diagram presentation.",
+      "aiGenerated": true
+    },
+    {
+      "id": "27",
+      "title": "Remote Work Policy",
+      "type": "document",
+      "category": "HR",
+      "content": "Guidelines for remote work.",
+      "createdAt": "2025-07-01T08:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "28",
+      "title": "Content Marketing Plan",
+      "type": "document",
+      "category": "marketing",
+      "content": "Content marketing strategy for Q3.",
+      "createdAt": "2025-07-03T10:00:00Z",
+      "aiGenerated": true
+    },
+    {
+      "id": "29",
+      "title": "Expense Report June 2025",
+      "type": "document",
+      "category": "finance",
+      "content": "Detailed list of expenses for June 2025.",
+      "createdAt": "2025-07-05T11:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "30",
+      "title": "Growth Hacking Techniques",
+      "type": "note",
+      "category": "marketing",
+      "content": "Latest growth hacking strategies and tools.",
+      "createdAt": "2025-07-10T12:00:00Z",
+      "aiGenerated": true
     }
   ]
 }

@@ -15,7 +15,7 @@ export const DocumentCard = ({ document, onClick }: Props) => {
       <div>
         <h4 className="font-bold text-lg mb-2">{document.title}</h4>
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          {document.content.slice(0, 50)}...
+          {document.content?.slice(0, 50)}...
         </p>
       </div>
       <div className="flex justify-between items-center mt-4 text-xs text-gray-400">
@@ -23,7 +23,7 @@ export const DocumentCard = ({ document, onClick }: Props) => {
         <span>{document.type}</span>
       </div>
       <div className="mt-2 flex gap-1 flex-wrap">
-        {document.tags.map((tag) => (
+        {document.tags?.map((tag) => (
           <span
             key={tag}
             className="bg-gray-200 dark:bg-gray-700 px-2 py-0.5 rounded-full text-xs"
