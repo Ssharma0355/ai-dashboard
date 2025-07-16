@@ -8,7 +8,11 @@
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "createdAt": "2025-01-15T10:30:00Z",
       "aiGenerated": true,
-      "tags": ["marketing", "strategy", "Q1"]
+      "tags": [
+        "marketing",
+        "strategy",
+        "Q1"
+      ]
     },
     {
       "id": "2",
@@ -18,7 +22,11 @@
       "content": "Sales data analysis for 2024 with regional breakdown.",
       "createdAt": "2025-01-10T09:00:00Z",
       "aiGenerated": true,
-      "tags": ["sales", "report", "finance"]
+      "tags": [
+        "sales",
+        "report",
+        "finance"
+      ]
     },
     {
       "id": "3",
@@ -28,7 +36,11 @@
       "content": "Best practices for UI components and layouts.",
       "createdAt": "2025-02-05T11:45:00Z",
       "aiGenerated": true,
-      "tags": ["UI", "design", "guidelines"]
+      "tags": [
+        "UI",
+        "design",
+        "guidelines"
+      ]
     },
     {
       "id": "4",
@@ -64,7 +76,11 @@
       "content": "Updated security guidelines for the organization.",
       "createdAt": "2025-03-05T14:30:00Z",
       "aiGenerated": true,
-      "tags": ["security", "IT", "guidelines"]
+      "tags": [
+        "security",
+        "IT",
+        "guidelines"
+      ]
     },
     {
       "id": "8",
@@ -91,7 +107,11 @@
       "content": "Weekly social media posting schedule.",
       "createdAt": "2025-04-12T08:00:00Z",
       "aiGenerated": true,
-      "tags": ["social media", "calendar", "marketing"]
+      "tags": [
+        "social media",
+        "calendar",
+        "marketing"
+      ]
     },
     {
       "id": "11",
@@ -101,7 +121,10 @@
       "content": "Search engine optimization plans for 2025.",
       "createdAt": "2025-04-15T12:00:00Z",
       "aiGenerated": true,
-      "tags": ["SEO", "strategy"]
+      "tags": [
+        "SEO",
+        "strategy"
+      ]
     },
     {
       "id": "12",
@@ -120,7 +143,11 @@
       "content": "Comparative analysis of top competitors.",
       "createdAt": "2025-05-01T13:30:00Z",
       "aiGenerated": true,
-      "tags": ["competitor", "analysis", "business"]
+      "tags": [
+        "competitor",
+        "analysis",
+        "business"
+      ]
     },
     {
       "id": "14",
@@ -156,7 +183,10 @@
       "content": "Summary of customer feedback received in Q2.",
       "createdAt": "2025-06-01T10:00:00Z",
       "aiGenerated": true,
-      "tags": ["customer", "feedback"]
+      "tags": [
+        "customer",
+        "feedback"
+      ]
     },
     {
       "id": "18",
@@ -218,7 +248,10 @@
       "content": "Action plan in case of a security breach.",
       "createdAt": "2025-06-25T09:00:00Z",
       "aiGenerated": true,
-      "tags": ["security", "plan"]
+      "tags": [
+        "security",
+        "plan"
+      ]
     },
     {
       "id": "25",
@@ -271,6 +304,24 @@
       "content": "Latest growth hacking strategies and tools.",
       "createdAt": "2025-07-10T12:00:00Z",
       "aiGenerated": true
+    },
+    {
+      "id": "0100",
+      "title": "Sachin",
+      "type": "slide",
+      "category": "academic",
+      "prompt": "hjhjh"
+    },
+    {
+      "id": "a8a6f91e-4b25-4d22-a755-02da2160e982",
+      "title": "Frontend Interview",
+      "type": "slide",
+      "category": "academic",
+      "content": "This will be the interview prep",
+      "prompt": "This will be the interview prep",
+      "createdAt": "2025-07-16T07:57:15.755Z",
+      "aiGenerated": true,
+      "tags": []
     }
   ]
 }

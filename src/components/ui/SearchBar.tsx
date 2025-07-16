@@ -1,17 +1,25 @@
 "use client";
 import { useState } from "react";
 
-export const SearchBar = () => {
+interface SearchBarProps {
+  onSearchChange: (query: string) => void;
+}
+
+export const SearchBar = ({ onSearchChange }: SearchBarProps) => {
   const [query, setQuery] = useState("");
 
-  // You can lift the state up later if needed
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setQuery(value);
+    onSearchChange(value);
+  };
 
   return (
     <input
       type="text"
       placeholder="Search documents..."
       value={query}
-      onChange={(e) => setQuery(e.target.value)}
+      onChange={handleChange}
       className="p-2 border rounded w-64"
     />
   );
