@@ -1,37 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Got it!
+Here’s a **clean README** without **light and dark mode** mention:
 
-## Getting Started
+---
 
-First, run the development server:
+# **AI Document Dashboard**
+
+An AI-powered document management dashboard built with **Next.js 15**, allowing users to create, filter, and preview AI-generated documents in multiple formats like slides, notes, and spreadsheets.
+
+---
+
+## **Features**
+
+* 📄 Create AI-generated documents with title, type, category, and prompt.
+* 🔍 Filter and search documents by category and type.
+* 🗂 View and manage a grid of documents with real-time updates.
+* 🖥️ Responsive and accessible UI.
+* ⚡ Uses `uuid` for unique document IDs.
+* 🗄️ Local JSON file used as a mock database (for development only).
+
+---
+
+## **Tech Stack**
+
+* **Next.js 15 (App Router)**
+* **TypeScript**
+* **Tailwind CSS** for styling
+* **Lucide Icons** for UI elements
+* **UUID** for unique IDs
+* **Vercel Deployment**
+
+---
+
+## **Setup Instructions**
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Ssharma0355/ai-dashboard.git
+cd ai-dashboard
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Open in browser**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit: [http://localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## **Live Demo**
 
-To learn more about Next.js, take a look at the following resources:
+🌐 [AI Dashboard Live Demo](https://ai-dashboard-seven-eosin.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## **Architecture Decisions**
 
-## Deploy on Vercel
+* **Next.js App Router**: Built with the App Directory for modern routing and server components.
+* **Local JSON File (Development Only)**: Uses `db.json` with the Node.js `fs` module to simulate a backend during development.
+  **Note**: This is not suitable for production as serverless environments don’t support file system writes.
+* **Component-Driven UI**: Includes modular components like `DocumentGrid`, `FilterSidebar`, `CreateDocumentModal`, etc.
+* **Vercel Deployment**: The project is optimized for seamless deployment on Vercel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# ai-dashboard
+## **⏰ Timeline & Submission**
+
+* **Time Limit**: 2 days from receipt
+* **Submission**: Email GitHub repo link and live demo URL
+* **Repo**: [https://github.com/Ssharma0355/ai-dashboard.git](https://github.com/Ssharma0355/ai-dashboard.git)
+* **Demo**: [https://ai-dashboard-seven-eosin.vercel.app/](https://ai-dashboard-seven-eosin.vercel.app/)
+* **Questions?** Feel free to reach out for clarifications.
+
+---
+
+Let me know if you want a **markdown file version** or help with badges / project boards.
