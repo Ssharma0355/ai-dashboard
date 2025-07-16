@@ -72,16 +72,3 @@ Visit: [http://localhost:3000](http://localhost:3000)
 * **Component-Driven UI**: Includes modular components like `DocumentGrid`, `FilterSidebar`, `CreateDocumentModal`, etc.
 * **Vercel Deployment**: The project is optimized for seamless deployment on Vercel.
 
----
-
-## **⏰ Timeline & Submission**
-
-* **Time Limit**: 2 days from receipt
-* **Submission**: Email GitHub repo link and live demo URL
-* **Repo**: [https://github.com/Ssharma0355/ai-dashboard.git](https://github.com/Ssharma0355/ai-dashboard.git)
-* **Demo**: [https://ai-dashboard-seven-eosin.vercel.app/](https://ai-dashboard-seven-eosin.vercel.app/)
-* **Questions?** Feel free to reach out for clarifications.
-
----
-
-Let me know if you want a **markdown file version** or help with badges / project boards.
